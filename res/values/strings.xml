@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Questoes</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+
+    <!-- Pagina principal -->
+    <string name="titulo_principal">Questions</string>
+    <string name="subtitulo_principal">App of improve to tests and questionaries</string>
+    <string name="btn_principal">Access</string>
+    <string name="rodape">Version 1_0 2014</string>
+    <string name="btn_sair">Quit</string>
+    <string name="btn_sobre">Sobre</string>
+
+    <!-- Pagina Acesso -->
+    <string name="title_activity_sub_main">Acesso</string>
+    <string name="acesso_titulo">Access</string>
+    <string name="acesso_informacoes">Pode-se acessar, cadastrar ou apenas visitar as questoes</string>
+    <string name="hint_senha">*Passwrod</string>
+    <string name="hint_nome_email">*Name or email</string>
+    <string name="btn_acessar">Enter</string>
+    <string name="btn_cadastrar">Register</string>
+    <string name="btn_visitar">Visit issues</string>
+    <string name="btn_voltar">Back</string>
+
+    <!-- Pagina Cadastro -->
+    <string name="title_activity_cadastro">Cadastro</string>
+    <string name="cadastro_titulo">Register</string>
+    <string name="img_perfil">Profile</string>
+    <string name="hint_confirmar_senha">*Confirm password</string>
+    <string name="hint_nome">Name</string>
+    <string name="hint_email">*Email</string>
+    <string name="toast_cadastro_cadastro_aceito">%s, seu cadastro foi realizado com sucesso!</string>
+    <string name="toast_cadastro_cadastro_nao_aceito">Nao foi possivel fazer o cadastro.</string>
+    <string name="edit_text_confirmacao_email_cadastro">*Confirme seu email</string>
+    <string name="dialogo_titulo_cadastro">Confirmação dos dados</string>
+    <string name="dialogo_texto_cadastro">Para gravar os dados aperte em confirmar.</string>
+    <string name="dialogo_botao_positivo_cadastro">Confirma</string>
+    <string name="dialogo_botao_negativo_cadastro">Rever dados</string>
+    <string name="menu_perfil_titulo_cadastro">%s</string>
+
+    <!-- Pagina Questao -->
+    <string name="title_activity_pagina_questao">Questão</string>
+    <string name="questao_titulo">20)Em que alternativa(s) as duas sentenças estão corretas quanto à concordância (item a) e quanto à regencia (item b), seguindo a norma culta?</string>
+    <string name="btn_pagina_questao_filtros">Determinar questoes a serem visualizadas</string>
+    <string name="tv_pagina_questao_sub_descricao_questao">01)a. Foram proibidas em todo o território nacional as manifestações contra o plano do governo.
+b. Fecharam o hospital de cujas salas de cirurgia falaram os jornais na semana passada.\n \n
+02)a. Ocorreram, na manhã de ontem, vários acidentes causados pela negligência das autoridades.
+b. A causa por que lutamos não compensa os danos que estamos sofrendo.\n \n
+04)a. Sofrerá punição, desde que comprovado as fraudes, as repartições que desrespeitarem as leis.
+b. A profissão que ele se identifica mais é a de geólogo.\n \n
+08)a. Preferida pelo público jovem, as músicas desse cantor ganham lugar nas paradas de sucesso.
+b. O ônibus em que estávamos envolveu-se em um acidente.\n \n
+16)a. O governo tenta explicar como fica as aplicações a curto prazo.
+b. O líder político que eu simpatizo não nasceu ainda.\n \n
+32)a. Foi inaugurado ontem as novas unidades da usina.
+b. O filme a que nos referíamos há pouco ganhou o grande prêmio do cinema.\n</string>
+    <string name="btn_pagina_questao_alternativa_a">a) V-V-V-V-V-V</string>
+    <string name="btn_pagina_questao_alternativa_b">b) V-V-V-V-V-F</string>
+    <string name="btn_pagina_questao_alternativa_c">c) V-V-V-V-F-F</string>
+    <string name="btn_pagina_questao_alternativa_d">d) V-V-V-F-F-F</string>
+    <string name="btn_pagina_questao_alternativa_e">e) V-V-F-V-V-V</string>
+    <string name="btn_pagina_questao_pular">Pular</string>
+    <string name="menu_item_filtro">Configura Filtros</string>
+    <string name="btn_pagina_questao_verificar_resposta">Verificar</string>
+    <string name="btn_pagina_questao_avancar">Avançar</string>
+    <string name="text_view_pagina_questao_resposta_questao">%s</string>
+
+    <!-- Pagina Ranking -->
+    <string name="title_activity_ranking">Top 10 - Pontuações</string>
+
+    <!-- Pagina Filtros -->
+    <string name="title_activity_filtros_questao">Visualização</string>
+    <string name="cabecalho_filtro"> Nos diz algumas informações a respeito das questoes que gostaria de visualizar</string>
+    <string name="menu_item_pagina_peril_nome_usuario">%s</string>
+
+    <string-array name="lista_filtro">
+        <item>Disciplina</item>
+        <item>Categoria</item>
+        <item>Modo de Ordem</item>
+    </string-array>
+
+    <string name="btn_filtros_questao_avancar">Avançar</string>
+
+    <!-- Pagina Sobre -->
+    <string name="title_activity_sobre">Sobre</string>
+    <string name="tv_sobre_nome">Criador:</string>
+    <string name="tv_sobre_versao">Versao: 1 2014</string>
+    <string name="tv_sobre_elenco">Elenco:</string>
+
+    <!-- Pagina Perfil -->
+    <string name="title_activity_perfil_usuario">Perfil: %s</string>
+    <string name="tv_perfil_usuario_nome">Nome: %s</string>
+    <string name="tv_perfil_usuario_email">Email: %s</string>
+    <string name="tv_perfil_usuario_total_respondidas">Total de questoes respondidas: %s</string>
+    <string name="tv_perfil_usuario_total_acertadas">Total de questoes acertadas: %s</string>
+    <string name="tv_perfil_usuario_total_erradas">Total de questoes erradas: %s</string>
+    <string name="tv_perfil_usuario_precisao">Precisão: %s</string>
+    <string name="btn_perfil_usuario_altera_dados">Altera dados</string>
+    
+    
+    <!-- Pagina Questao Horizontal -->
+    <string name="title_activity_pagina_questao_horizontal_main">Questão</string>
+    
+    <!-- Pagina Questao Horziontal pag1 -->
+    <string name="tv_pagina_questao_horizontal_pg1">Enunciado</string>
+    
+    <!-- Pagina Questao Horizontal pag2 -->
+    <string name="tv_pagina_questao_horizontal_pg2">Questão</string>
+    <string-array name="lista_tv_alternativas">
+        <item> a) V-V-V-V-V-V </item>
+        <item> b) V-V-V-V-V-F </item>
+        <item> c) V-V-V-V-F-F </item>
+        <item> d) V-V-V-F-F-F </item>
+        <item> e) V-V-F-V-V-V </item>
+    </string-array>
+    
+    <!-- Pagina Questao Horizontal pag3 - Comentarios -->
+    <string name="tv_pagina_questao_horizontal_pg3">Comentários</string>
+    <string-array name="lista_comentarios_pagina_questao_horizontal_pg3">
+        <item> Joao - Errei a questão </item>
+        <item> Leticia - Não entendi! </item>
+        <item> Pedro - Explicação da questão </item>
+        <item> Alfredo - Fácil! </item>
+        <item> Sandra - Me expliquem uma coisa... </item>
+    </string-array>
+    
+    
+</resources>

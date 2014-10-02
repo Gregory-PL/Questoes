@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.questoes"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="8"
+        android:targetSdkVersion="21" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name=".MainActivity"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".SubMainActivity"
+            android:label="@string/title_activity_sub_main" >
+        </activity>
+        <activity
+            android:name=".CadastroActivity"
+            android:label="@string/title_activity_cadastro" >
+        </activity>
+        <activity
+            android:name=".PaginaQuestaoActivity"
+            android:label="@string/title_activity_pagina_questao" >
+        </activity>
+        <activity
+            android:name=".RankingActivity"
+            android:label="@string/title_activity_ranking" >
+        </activity>
+        <activity
+            android:name=".FiltrosQuestaoActivity"
+            android:label="@string/title_activity_filtros_questao" >
+        </activity>
+        <activity
+            android:name=".SobreActivity"
+            android:label="@string/title_activity_sobre" >
+        </activity>
+        <activity
+            android:name=".PerfilUsuarioActivity"
+            android:label="@string/title_activity_perfil_usuario" >
+        </activity>
+        <activity
+            android:name=".PaginaQuestaoHorizontalMainActivity"
+            android:label="@string/title_activity_pagina_questao_horizontal_main" >
+        </activity>
+    </application>
+
+</manifest>

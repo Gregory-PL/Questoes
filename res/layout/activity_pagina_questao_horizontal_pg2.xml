@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <TextView
+        android:id="@+id/textViewTituloPaginaQuestaoPg2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/tv_pagina_questao_horizontal_pg2"
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+    
+     <ListView
+         android:id="@+id/listViewAlternativasQuestaoPaginaQuestaoHorizontal"
+         android:layout_width="match_parent"
+         android:layout_height="wrap_content"
+         android:entries="@array/lista_tv_alternativas" >
+
+                </ListView>
+
+                <Button
+                    android:id="@+id/buttonPularPaginaQuestaoHorizontal"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/btn_pagina_questao_pular" />
+
+                <Button
+                    android:id="@+id/buttonVoltarPaginaQuestaoHorizontal"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/btn_voltar" />
+
+                <Button
+                    android:id="@+id/buttonVerificarPaginaHorizontal"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/btn_pagina_questao_verificar_resposta" />
+
+                <Button
+                    android:id="@+id/buttonAvancarPaginaQuestaoHorizontal"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/btn_pagina_questao_avancar"
+                    android:visibility="invisible" />
+
+                <TextView
+                    android:id="@+id/textViewRespotaPaginaQuestaoHorizontal"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:visibility="invisible" />
+
+</LinearLayout>

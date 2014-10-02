@@ -1,0 +1,64 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.example.questoes.MainActivity" >
+
+    <TextView
+        android:id="@+id/textViewRodape"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:text="@string/rodape" />
+
+    <TextView
+        android:id="@+id/textViewTituloPrincipal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="70dp"
+        android:text="@string/titulo_principal" />
+
+    <TextView
+        android:id="@+id/textViewSubTitulo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/buttonPrinAcessar"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="84dp"
+        android:text="@string/subtitulo_principal" />
+
+    <Button
+        android:id="@+id/buttonPrinAcessar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/textViewRodape"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="82dp"
+        android:text="@string/btn_principal" />
+
+    <Button
+        android:id="@+id/buttonPrinSair"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/textViewRodape"
+        android:layout_alignRight="@+id/textViewSubTitulo"
+        android:layout_marginBottom="14dp"
+        android:text="@string/btn_sair" />
+
+    <Button
+        android:id="@+id/buttonPrincipalSobre"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/buttonPrinSair"
+        android:layout_alignBottom="@+id/buttonPrinSair"
+        android:layout_toLeftOf="@+id/textViewRodape"
+        android:text="@string/btn_sobre" />
+
+</RelativeLayout>

@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+     <!-- Pagina principal -->
+    <string name="titulo_principal">Questoes</string>
+    <string name="subtitulo_principal">Programa de reforco para testes e provas</string>
+    <string name="btn_principal">Acessar</string>
+    <string name="rodape">Versao 1_0 2014</string>
+    <string name="btn_sair">Sair</string>
+
+    <!-- Pagina Acesso -->
+    <string name="title_activity_sub_main">SubMainActivity</string>
+    <string name="acesso_titulo">Acessar</string>
+    <string name="acesso_informacoes">Pode-se acessar, cadastrar ou apenas visitar as questoes</string>
+    <string name="hint_senha">*Senha</string>
+    <string name="hint_nome_email">*Nome ou email</string>
+    <string name="btn_acessar">Acessar</string>
+    <string name="btn_cadastrar">Cadastrar</string>
+    <string name="btn_visitar">Visitar Questoes</string>
+    <string name="btn_voltar">Voltar</string>
+    <string name="title_activity_cadastro">CadastroActivity</string>
+
+    <!-- Pagina Cadastro -->
+    <string name="cadastro_titulo">Cadastro</string>
+    <string name="img_perfil">Perfil</string>
+    <string name="hint_confirmar_senha">*Confirma senha</string>
+    <string name="hint_nome">Nome</string>
+    <string name="hint_email">*Email</string>
+    <string name="title_activity_pagina_questao">PaginaQuestaoActivity</string>
+
+    <!-- Pagina Pagina Questao -->
+    <string name="questao_titulo">Questao Questao Questao Questao Questao Questao Questao Questao</string>
+    <string name="title_activity_ranking">RankingActivity</string>
+    
+    <string-array name="lista_filtro">
+        <item>Disciplina</item>
+        <item>Categoria</item>
+        <item>Modo de Ordem</item>
+    </string-array>
+    <string name="btn_filtros_questao_avancar">Avançar</string>
+</resources>

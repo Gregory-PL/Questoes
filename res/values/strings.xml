@@ -2,8 +2,8 @@
 <resources>
 
     <string name="app_name">Questoes</string>
-    <string name="hello_world">Hello world!</string>
-    <string name="action_settings">Settings</string>
+    <string name="hello_world">Olá mundo!</string>
+    <string name="action_settings">Configurações</string>
 
     <!-- Pagina principal -->
     <string name="titulo_principal">Questions</string>

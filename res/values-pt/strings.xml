@@ -8,18 +8,19 @@
     <string name="btn_sair">Sair</string>
 
     <!-- Pagina Acesso -->
-    <string name="title_activity_sub_main">SubMainActivity</string>
-    <string name="acesso_titulo">Acessar</string>
-    <string name="acesso_informacoes">Pode-se acessar, cadastrar ou apenas visitar as questoes</string>
-    <string name="hint_senha">*Senha</string>
-    <string name="hint_nome_email">*Nome ou email</string>
-    <string name="btn_acessar">Acessar</string>
-    <string name="btn_cadastrar">Cadastrar</string>
-    <string name="btn_visitar">Visitar Questoes</string>
-    <string name="btn_voltar">Voltar</string>
-    <string name="title_activity_cadastro">CadastroActivity</string>
+    <string name="title_activity_sub_main">Acesso</string>
+    <string name="tv_acesso_titulo">Acessar</string>
+    <string name="tv_acesso_informacoes">Pode-se acessar, cadastrar ou apenas visitar as questoes</string>
+    <string name="hint_acesso_senha">*Senha</string>
+    <string name="hint_acesso_nome_email">*Nome ou email</string>
+    <string name="btn_acesso_acessar">Acessar</string>
+    <string name="btn_acesso_cadastrar">Cadastrar</string>
+    <string name="btn_acesso_visitar">Visitar Questoes</string>
+    <string name="btn_acesso_voltar">Voltar</string>
+    <string name="tv_acesso_ou">ou</string>
 
     <!-- Pagina Cadastro -->
+    <string name="title_activity_cadastro">CadastroActivity</string>
     <string name="cadastro_titulo">Cadastro</string>
     <string name="img_perfil">Perfil</string>
     <string name="hint_confirmar_senha">*Confirma senha</string>
@@ -37,4 +38,37 @@
         <item>Modo de Ordem</item>
     </string-array>
     <string name="btn_filtros_questao_avancar">Avançar</string>
+    
+    <!-- Pagina Questao Horizontal -->
+    <string name="title_activity_pagina_questao_horizontal_main">Questão</string>
+    
+    <!-- Pagina Questao Horziontal pag1 -->
+    <string name="tv_pagina_questao_horizontal_pg1">Enunciado</string>
+    
+    <!-- Pagina Questao Horizontal pag2 -->
+    <string name="tv_pagina_questao_horizontal_pg2">Questão</string>
+    <string-array name="lista_tv_alternativas">
+        <item> a) V-V-V-V-V-V </item>
+        <item> b) V-V-V-V-V-F </item>
+        <item> c) V-V-V-V-F-F </item>
+        <item> d) V-V-V-F-F-F </item>
+        <item> e) V-V-F-V-V-V </item>
+    </string-array>
+    
+    <!-- Pagina Questao Horizontal pag3 - Comentarios -->
+    <string name="tv_pagina_questao_horizontal_pg3">Comentários</string>
+    <string-array name="lista_comentarios_pagina_questao_horizontal_pg3">
+        <item> Joao - Errei a questão </item>
+        <item> Leticia - Não entendi! </item>
+        <item> Pedro - Explicação da questão </item>
+        <item> Alfredo - Fácil! </item>
+        <item> Sandra - Me expliquem uma coisa </item>
+        <item >Wagner - Agora sim</item>
+    </string-array>
+    
+    <!-- Geral -->
+    <string name="btn_voltar">Voltar</string>
+    <string name="hint_senha">*Senha</string>
+    <string name="btn_cadastrar">Cadastrar</string>
+    
 </resources>

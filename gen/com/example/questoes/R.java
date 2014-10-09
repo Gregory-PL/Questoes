@@ -1096,8 +1096,8 @@ containing a value of this type.
         public static final int action_menu_divider=0x7f050016;
         public static final int action_menu_presenter=0x7f050017;
         public static final int action_mode_close_button=0x7f050024;
-        public static final int action_perfil_cadastro=0x7f050080;
-        public static final int action_settings=0x7f05007f;
+        public static final int action_perfil_cadastro=0x7f050082;
+        public static final int action_settings=0x7f050081;
         public static final int activity_chooser_view_content=0x7f050025;
         public static final int always=0x7f05000b;
         public static final int beginning=0x7f050011;
@@ -1117,10 +1117,10 @@ containing a value of this type.
         public static final int buttonPrincipalSobre=0x7f05004d;
         public static final int buttonPularPaginaQuestao=0x7f050058;
         public static final int buttonPularPaginaQuestaoHorizontal=0x7f050065;
-        public static final int buttonSubPrinAcessar=0x7f050078;
-        public static final int buttonSubPrinCadastrar=0x7f050079;
-        public static final int buttonSubPrinVisitar=0x7f05007d;
-        public static final int buttonSubPrinVoltar=0x7f050077;
+        public static final int buttonSubPrinAcessar=0x7f05007b;
+        public static final int buttonSubPrinCadastrar=0x7f05007d;
+        public static final int buttonSubPrinVisitar=0x7f05007f;
+        public static final int buttonSubPrinVoltar=0x7f050080;
         public static final int buttonVerificarPaginaHorizontal=0x7f050067;
         public static final int buttonVerificarRespostaPaginaQuestao=0x7f05005a;
         public static final int buttonVoltarCadastro=0x7f050044;
@@ -1135,7 +1135,7 @@ containing a value of this type.
         public static final int editTextConfirmacaoEmailCadastro=0x7f050040;
         public static final int editTextConfirmacaoSenhaCadastro=0x7f050042;
         public static final int editTextEmailCadastro=0x7f05003f;
-        public static final int editTextNomeAcessoSubPrin=0x7f05007b;
+        public static final int editTextNomeAcessoSubPrin=0x7f050079;
         public static final int editTextNomeCadastro=0x7f05003e;
         public static final int editTextSenhaAcessoSubPrin=0x7f05007a;
         public static final int editTextSenhaCadastro=0x7f050041;
@@ -1151,8 +1151,8 @@ containing a value of this type.
         public static final int imageButtonPerfilCadastro=0x7f05003d;
         public static final int imageViewUsuarioPerfil=0x7f05006e;
         public static final int indicator=0x7f05005e;
-        public static final int item_filtro=0x7f050082;
-        public static final int item_pagina_filtro_nome_usuario=0x7f050081;
+        public static final int item_filtro=0x7f050084;
+        public static final int item_pagina_filtro_nome_usuario=0x7f050083;
         public static final int listMode=0x7f050001;
         public static final int listViewAlternativasQuestaoPaginaQuestaoHorizontal=0x7f050064;
         public static final int listViewComentariosPaginaQuestaoHorizontal=0x7f05006b;
@@ -1184,15 +1184,17 @@ containing a value of this type.
         public static final int split_action_bar=0x7f05001e;
         public static final int submit_area=0x7f050039;
         public static final int tabMode=0x7f050002;
-        public static final int textViewAcessoPrincipal=0x7f05007e;
+        public static final int textViewAcessoPrincipal=0x7f050077;
         public static final int textViewCadastro=0x7f05003c;
         public static final int textViewComentarioPaginaFiltro=0x7f050045;
         public static final int textViewDescricaoQuestaoPaginaQuestaoHorizontal=0x7f050061;
         public static final int textViewEmailPerfil=0x7f05006d;
         public static final int textViewFiltrosPaginaQuestao=0x7f05004f;
         public static final int textViewFiltrosPaginaQuestaoHorizontal=0x7f05005f;
-        public static final int textViewInfomacoesAcesso=0x7f05007c;
+        public static final int textViewInfomacoesAcesso=0x7f050078;
         public static final int textViewNomePerfil=0x7f05006c;
+        public static final int textViewOr2Acesso=0x7f05007e;
+        public static final int textViewOrAcesso=0x7f05007c;
         public static final int textViewPrecisaoPerfil=0x7f050072;
         public static final int textViewQuestaoTitulo=0x7f050051;
         public static final int textViewRespostaQuestaoPaginaQuestao=0x7f05005c;
@@ -1333,74 +1335,78 @@ containing a value of this type.
         /**  Description of a share target (both in the list of such or the default share button) in a ShareActionProvider (share UI). [CHAR LIMIT=NONE] 
          */
         public static final int abc_shareactionprovider_share_with_application=0x7f0a000b;
-        public static final int acesso_informacoes=0x7f0a0018;
-        public static final int acesso_titulo=0x7f0a0017;
         public static final int action_settings=0x7f0a000f;
         public static final int app_name=0x7f0a000d;
-        public static final int btn_acessar=0x7f0a001b;
-        public static final int btn_cadastrar=0x7f0a001c;
-        public static final int btn_filtros_questao_avancar=0x7f0a003f;
-        public static final int btn_pagina_questao_alternativa_a=0x7f0a0031;
-        public static final int btn_pagina_questao_alternativa_b=0x7f0a0032;
-        public static final int btn_pagina_questao_alternativa_c=0x7f0a0033;
-        public static final int btn_pagina_questao_alternativa_d=0x7f0a0034;
-        public static final int btn_pagina_questao_alternativa_e=0x7f0a0035;
-        public static final int btn_pagina_questao_avancar=0x7f0a0039;
-        public static final int btn_pagina_questao_filtros=0x7f0a002f;
-        public static final int btn_pagina_questao_pular=0x7f0a0036;
-        public static final int btn_pagina_questao_verificar_resposta=0x7f0a0038;
-        public static final int btn_perfil_usuario_altera_dados=0x7f0a004b;
+        public static final int btn_acesso_acessar=0x7f0a001b;
+        public static final int btn_acesso_cadastrar=0x7f0a001c;
+        public static final int btn_acesso_visitar=0x7f0a001d;
+        public static final int btn_acesso_voltar=0x7f0a001e;
+        public static final int btn_cadastrar=0x7f0a0053;
+        public static final int btn_filtros_questao_avancar=0x7f0a0040;
+        public static final int btn_pagina_questao_alternativa_a=0x7f0a0032;
+        public static final int btn_pagina_questao_alternativa_b=0x7f0a0033;
+        public static final int btn_pagina_questao_alternativa_c=0x7f0a0034;
+        public static final int btn_pagina_questao_alternativa_d=0x7f0a0035;
+        public static final int btn_pagina_questao_alternativa_e=0x7f0a0036;
+        public static final int btn_pagina_questao_avancar=0x7f0a003a;
+        public static final int btn_pagina_questao_filtros=0x7f0a0030;
+        public static final int btn_pagina_questao_pular=0x7f0a0037;
+        public static final int btn_pagina_questao_verificar_resposta=0x7f0a0039;
+        public static final int btn_perfil_usuario_altera_dados=0x7f0a004c;
         public static final int btn_principal=0x7f0a0012;
         public static final int btn_sair=0x7f0a0014;
         public static final int btn_sobre=0x7f0a0015;
-        public static final int btn_visitar=0x7f0a001d;
-        public static final int btn_voltar=0x7f0a001e;
-        public static final int cabecalho_filtro=0x7f0a003d;
-        /**  Pagina Cadastro 
+        /**  Geral 
+ Geral 
          */
-        public static final int cadastro_titulo=0x7f0a0020;
-        public static final int dialogo_botao_negativo_cadastro=0x7f0a002b;
-        public static final int dialogo_botao_positivo_cadastro=0x7f0a002a;
-        public static final int dialogo_texto_cadastro=0x7f0a0029;
-        public static final int dialogo_titulo_cadastro=0x7f0a0028;
-        public static final int edit_text_confirmacao_email_cadastro=0x7f0a0027;
+        public static final int btn_voltar=0x7f0a0051;
+        public static final int cabecalho_filtro=0x7f0a003e;
+        public static final int cadastro_titulo=0x7f0a0021;
+        public static final int dialogo_botao_negativo_cadastro=0x7f0a002c;
+        public static final int dialogo_botao_positivo_cadastro=0x7f0a002b;
+        public static final int dialogo_texto_cadastro=0x7f0a002a;
+        public static final int dialogo_titulo_cadastro=0x7f0a0029;
+        public static final int edit_text_confirmacao_email_cadastro=0x7f0a0028;
         public static final int hello_world=0x7f0a000e;
-        public static final int hint_confirmar_senha=0x7f0a0022;
-        public static final int hint_email=0x7f0a0024;
-        public static final int hint_nome=0x7f0a0023;
-        public static final int hint_nome_email=0x7f0a001a;
-        public static final int hint_senha=0x7f0a0019;
-        public static final int img_perfil=0x7f0a0021;
-        public static final int menu_item_filtro=0x7f0a0037;
-        public static final int menu_item_pagina_peril_nome_usuario=0x7f0a003e;
-        public static final int menu_perfil_titulo_cadastro=0x7f0a002c;
+        public static final int hint_acesso_nome_email=0x7f0a001a;
+        public static final int hint_acesso_senha=0x7f0a0019;
+        public static final int hint_confirmar_senha=0x7f0a0023;
+        public static final int hint_email=0x7f0a0025;
+        public static final int hint_nome=0x7f0a0024;
+        public static final int hint_senha=0x7f0a0052;
+        public static final int img_perfil=0x7f0a0022;
+        public static final int menu_item_filtro=0x7f0a0038;
+        public static final int menu_item_pagina_peril_nome_usuario=0x7f0a003f;
+        public static final int menu_perfil_titulo_cadastro=0x7f0a002d;
         /**  Pagina Pagina Questao 
          */
-        public static final int questao_titulo=0x7f0a002e;
+        public static final int questao_titulo=0x7f0a002f;
         public static final int rodape=0x7f0a0013;
         public static final int subtitulo_principal=0x7f0a0011;
-        public static final int text_view_pagina_questao_resposta_questao=0x7f0a003a;
+        public static final int text_view_pagina_questao_resposta_questao=0x7f0a003b;
         /**  Pagina Cadastro 
+ Pagina Cadastro 
          */
-        public static final int title_activity_cadastro=0x7f0a001f;
+        public static final int title_activity_cadastro=0x7f0a0020;
         /**  Pagina Filtros 
          */
-        public static final int title_activity_filtros_questao=0x7f0a003c;
+        public static final int title_activity_filtros_questao=0x7f0a003d;
         /**  Pagina Questao 
          */
-        public static final int title_activity_pagina_questao=0x7f0a002d;
+        public static final int title_activity_pagina_questao=0x7f0a002e;
         /**  Pagina Questao Horizontal 
+ Pagina Questao Horizontal 
          */
-        public static final int title_activity_pagina_questao_horizontal_main=0x7f0a004c;
+        public static final int title_activity_pagina_questao_horizontal_main=0x7f0a004d;
         /**  Pagina Perfil 
          */
-        public static final int title_activity_perfil_usuario=0x7f0a0044;
+        public static final int title_activity_perfil_usuario=0x7f0a0045;
         /**  Pagina Ranking 
          */
-        public static final int title_activity_ranking=0x7f0a003b;
+        public static final int title_activity_ranking=0x7f0a003c;
         /**  Pagina Sobre 
          */
-        public static final int title_activity_sobre=0x7f0a0040;
+        public static final int title_activity_sobre=0x7f0a0041;
         /**  Pagina Acesso 
  Pagina Acesso 
          */
@@ -1409,27 +1415,33 @@ containing a value of this type.
  Pagina principal 
          */
         public static final int titulo_principal=0x7f0a0010;
-        public static final int toast_cadastro_cadastro_aceito=0x7f0a0025;
-        public static final int toast_cadastro_cadastro_nao_aceito=0x7f0a0026;
+        public static final int toast_cadastro_cadastro_aceito=0x7f0a0026;
+        public static final int toast_cadastro_cadastro_nao_aceito=0x7f0a0027;
+        public static final int tv_acesso_informacoes=0x7f0a0018;
+        public static final int tv_acesso_ou=0x7f0a001f;
+        public static final int tv_acesso_titulo=0x7f0a0017;
         /**  Pagina Questao Horziontal pag1 
+ Pagina Questao Horziontal pag1 
          */
-        public static final int tv_pagina_questao_horizontal_pg1=0x7f0a004d;
+        public static final int tv_pagina_questao_horizontal_pg1=0x7f0a004e;
         /**  Pagina Questao Horizontal pag2 
+ Pagina Questao Horizontal pag2 
          */
-        public static final int tv_pagina_questao_horizontal_pg2=0x7f0a004e;
+        public static final int tv_pagina_questao_horizontal_pg2=0x7f0a004f;
         /**  Pagina Questao Horizontal pag3 - Comentarios 
+ Pagina Questao Horizontal pag3 - Comentarios 
          */
-        public static final int tv_pagina_questao_horizontal_pg3=0x7f0a004f;
-        public static final int tv_pagina_questao_sub_descricao_questao=0x7f0a0030;
-        public static final int tv_perfil_usuario_email=0x7f0a0046;
-        public static final int tv_perfil_usuario_nome=0x7f0a0045;
-        public static final int tv_perfil_usuario_precisao=0x7f0a004a;
-        public static final int tv_perfil_usuario_total_acertadas=0x7f0a0048;
-        public static final int tv_perfil_usuario_total_erradas=0x7f0a0049;
-        public static final int tv_perfil_usuario_total_respondidas=0x7f0a0047;
-        public static final int tv_sobre_elenco=0x7f0a0043;
-        public static final int tv_sobre_nome=0x7f0a0041;
-        public static final int tv_sobre_versao=0x7f0a0042;
+        public static final int tv_pagina_questao_horizontal_pg3=0x7f0a0050;
+        public static final int tv_pagina_questao_sub_descricao_questao=0x7f0a0031;
+        public static final int tv_perfil_usuario_email=0x7f0a0047;
+        public static final int tv_perfil_usuario_nome=0x7f0a0046;
+        public static final int tv_perfil_usuario_precisao=0x7f0a004b;
+        public static final int tv_perfil_usuario_total_acertadas=0x7f0a0049;
+        public static final int tv_perfil_usuario_total_erradas=0x7f0a004a;
+        public static final int tv_perfil_usuario_total_respondidas=0x7f0a0048;
+        public static final int tv_sobre_elenco=0x7f0a0044;
+        public static final int tv_sobre_nome=0x7f0a0042;
+        public static final int tv_sobre_versao=0x7f0a0043;
     }
     public static final class style {
         /** 

@@ -1,4 +1,4 @@
-<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
@@ -6,81 +6,78 @@
     android:paddingLeft="@dimen/activity_horizontal_margin"
     android:paddingRight="@dimen/activity_horizontal_margin"
     android:paddingTop="@dimen/activity_vertical_margin"
-    tools:context="com.example.questoes.SubMainActivity" >
+    tools:context="com.example.questoes.SubMainActivity"
+    android:orientation="vertical" >
 
-    <Button
-        android:id="@+id/buttonSubPrinVoltar"
-        android:layout_width="wrap_content"
+    <TextView
+        android:id="@+id/textViewAcessoPrincipal"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_alignParentBottom="true"
-        android:layout_centerHorizontal="true"
-        android:text="@string/btn_voltar" />
-
-    <Button
-        android:id="@+id/buttonSubPrinAcessar"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_above="@+id/buttonSubPrinVoltar"
-        android:layout_marginBottom="45dp"
-        android:layout_marginRight="18dp"
-        android:layout_toLeftOf="@+id/buttonSubPrinCadastrar"
-        android:text="@string/btn_acessar" />
-
-    <EditText
-        android:id="@+id/editTextSenhaAcessoSubPrin"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_centerHorizontal="true"
-        android:layout_centerVertical="true"
-        android:ems="10"
-        android:hint="@string/hint_senha"
-        android:inputType="textPassword" >
-
-        <requestFocus />
-    </EditText>
-
-    <EditText
-        android:id="@+id/editTextNomeAcessoSubPrin"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_above="@+id/editTextSenhaAcessoSubPrin"
-        android:layout_alignRight="@+id/editTextSenhaAcessoSubPrin"
-        android:ems="10"
-        android:hint="@string/hint_nome" />
+        android:layout_marginBottom="10dp"
+        android:layout_marginTop="10dp"
+        android:gravity="center_horizontal"
+        android:text="@string/tv_acesso_titulo"
+        android:textSize="30sp" />
 
     <TextView
         android:id="@+id/textViewInfomacoesAcesso"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_above="@+id/editTextNomeAcessoSubPrin"
-        android:layout_centerHorizontal="true"
-        android:layout_marginBottom="17dp"
-        android:text="@string/acesso_informacoes" />
+        android:layout_marginBottom="20dp"
+        android:gravity="center_horizontal"
+        android:text="@string/tv_acesso_informacoes" />
+
+    <EditText
+        android:id="@+id/editTextNomeAcessoSubPrin"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/hint_acesso_nome_email" />
+
+    <EditText
+        android:id="@+id/editTextSenhaAcessoSubPrin"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/hint_acesso_senha"
+        android:inputType="textPassword" />
+
+    <Button
+        android:id="@+id/buttonSubPrinAcessar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/btn_acesso_acessar" />
+
+    <TextView
+        android:id="@+id/textViewOrAcesso"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/tv_acesso_ou"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:gravity="center_horizontal" />
 
     <Button
         android:id="@+id/buttonSubPrinCadastrar"
-        android:layout_width="wrap_content"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_alignBaseline="@+id/buttonSubPrinAcessar"
-        android:layout_alignBottom="@+id/buttonSubPrinAcessar"
-        android:layout_alignRight="@+id/editTextSenhaAcessoSubPrin"
-        android:text="@string/btn_cadastrar" />
+        android:text="@string/btn_acesso_cadastrar" />
+
+    <TextView
+        android:id="@+id/textViewOr2Acesso"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/tv_acesso_ou"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:gravity="center_horizontal" />
 
     <Button
         android:id="@+id/buttonSubPrinVisitar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/btn_acesso_visitar" />
+
+    <Button
+        android:id="@+id/buttonSubPrinVoltar"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_above="@+id/buttonSubPrinVoltar"
-        android:layout_centerHorizontal="true"
-        android:text="@string/btn_visitar" />
+        android:text="@string/btn_acesso_voltar" />
 
-    <TextView
-        android:id="@+id/textViewAcessoPrincipal"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_alignParentTop="true"
-        android:layout_centerHorizontal="true"
-        android:layout_marginTop="49dp"
-        android:text="@string/acesso_titulo" />
-
-</RelativeLayout>
+</LinearLayout>

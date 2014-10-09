@@ -14,15 +14,18 @@
     <string name="btn_sobre">Sobre</string>
 
     <!-- Pagina Acesso -->
-    <string name="title_activity_sub_main">Acesso</string>
-    <string name="acesso_titulo">Access</string>
-    <string name="acesso_informacoes">Pode-se acessar, cadastrar ou apenas visitar as questoes</string>
-    <string name="hint_senha">*Passwrod</string>
-    <string name="hint_nome_email">*Name or email</string>
-    <string name="btn_acessar">Enter</string>
-    <string name="btn_cadastrar">Register</string>
-    <string name="btn_visitar">Visit issues</string>
-    <string name="btn_voltar">Back</string>
+    <string name="title_activity_sub_main">Acess</string>
+    <string name="tv_acesso_titulo">Access</string>
+    
+    <string name="tv_acesso_informacoes">You can access (Enter), 
+        register or  just visit issues.</string>
+    <string name="hint_acesso_senha">*Password</string>
+    <string name="hint_acesso_nome_email">*Name or email</string>
+    <string name="btn_acesso_acessar">Enter</string>
+    <string name="btn_acesso_cadastrar">Register</string>
+    <string name="btn_acesso_visitar">Visit issues</string>
+    <string name="btn_acesso_voltar">Back</string>
+    <string name="tv_acesso_ou">or</string>
 
     <!-- Pagina Cadastro -->
     <string name="title_activity_cadastro">Cadastro</string>
@@ -126,6 +129,11 @@ b. O filme a que nos referíamos há pouco ganhou o grande prêmio do cinema.\n<
         <item> Sandra - Me expliquem uma coisa </item>
         <item >Wagner - Agora sim</item>
     </string-array>
+    
+    <!-- Geral -->
+    <string name="btn_voltar">Back</string>
+    <string name="hint_senha">*Password</string>
+    <string name="btn_cadastrar">Register</string>
     
     
 </resources>

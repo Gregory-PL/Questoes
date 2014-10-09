@@ -1,7 +1,7 @@
-//Horizontal Scroll personalizado
-//Bruce Cooper on 3 May 2011
-//https://github.com/brucejcooper/Android-Examples/tree/master/PagingScrollerExample
-
+/*Horizontal Scroll personalizado
+Bruce Cooper on 3 May 2011
+https://github.com/brucejcooper/Android-Examples/tree/master/PagingScrollerExample
+*/
 package com.example.questoes_scroll_horizontal;
 
 import java.util.LinkedList;
